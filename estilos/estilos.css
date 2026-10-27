@@ -1,6 +1,55 @@
-h1 {color: blue;font-size: xxx-large;}
-caption {color: red;font-size: xx-large;height: 50px;}
-a {color: rgb(0, 0, 0);font-size: x-large;}
-td {text-align: center;}
-th {font-size: x-large;height: 40px;}
-.td2 {text-align: left;}
+h1 {color: rgb(255, 255, 255);
+    font-size: xxx-large;
+    background-color: rgb(50, 149, 224);
+    border: solid;
+    border-color: rgb(245, 246, 247);
+    border-width: 6px;
+    border-style: double;
+    border-radius: 10px;
+    margin-bottom: -18px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+
+caption {color: red;
+    font-size: xx-large;
+    height: 50px;
+}
+
+a {color: rgb(0, 0, 0);
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.a2 {color: rgb(0, 0, 0);
+    font-size: large;
+    text-decoration: underline;
+}
+
+td {text-align: center; 
+    background-color: rgb(178, 186, 188);
+    height: 40px;
+    border: solid;
+    border-color: rgb(10, 10, 10);
+}
+
+th {font-size: x-large;
+    height: 40px;
+    Border: solid;
+    Border-color: rgb(10, 10, 10);
+    border-width: 5px;
+}
+
+.td2 {text-align: left;
+}
+
+ul {background-color: rgb(224, 230, 231);
+    border:solid;
+    Border-color: rgb(41, 191, 241);
+    border-width: 5px;
+    border-style: double;
+    border-radius: 10px;
+}
+
+ul li {border-bottom: 1px solid rgb(41, 191, 241);
+}
